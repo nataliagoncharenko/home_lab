@@ -13,11 +13,16 @@ Each service lives in its own directory and is deployed using Docker Compose.
 
 ## Structure
 
+```text
 home-lab/
 ├── nextcloud/
+│   └── docker-compose.yml
 ├── navidrome/
+│   └── docker-compose.yml
 ├── audiobookshelf/
+│   └── docker-compose.yml
 ├── kavita/
+│   └── docker-compose.yml
 
 
 ## Usage
